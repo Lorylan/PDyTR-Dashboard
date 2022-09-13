@@ -1,0 +1,4 @@
+flask ~= 2.0
+grpcio-tools ~= 1.30
+Jinja2 ~= 3.0
+turbo-flask ~= 0.8

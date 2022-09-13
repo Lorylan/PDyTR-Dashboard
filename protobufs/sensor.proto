@@ -1,0 +1,12 @@
+syntax="proto3";
+
+message Empty{}
+
+message SensorResponse{
+    int64 value = 1;
+}
+
+service Sensor{
+    rpc getData(Empty) returns (stream SensorResponse){};
+}
+

@@ -1,0 +1,23 @@
+<!-- homepage.html -->
+<!doctype html>
+<head>
+    <title>Sensores en tiempo real</title>
+    {{ turbo() }}
+</head>
+<body>
+    <div id="data" class="grid">
+        <div class="grid-item">
+            <h1>Sensor de humedad </h1>
+            <label>{{hum.value}}</label>
+        </div>
+        <div class="grid-item">
+            <h1>Sensor de luminosidad </h1>
+            <label>{{lum.value}}</label>
+        </div>
+        <div class="grid-item">
+            <h1>Sensor de temperatura </h1>
+            <label>{{temp.value}}</label>
+        </div>
+    </div>
+   
+</body>
