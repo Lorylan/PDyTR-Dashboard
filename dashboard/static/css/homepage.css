@@ -1,9 +1,10 @@
 .content{
     display:flex; 
     flex-direction:row;
+    background-color:  rgb(33, 31, 31);
 }
 .main{
-    background-color: rgb(254, 254, 254);
+    background-color: rgb(33, 31, 31);
     align-items: center;
     text-align: center;
 }
@@ -39,10 +40,12 @@
 h1{
     text-align: center;
     padding: 20px;
+    color:white
 }
 p{
    font-size: x-large; 
    text-align: center;
+   color:white
 }
 footer{
     position: fixed;
@@ -50,4 +53,7 @@ footer{
     text-align: center;
     align-items: center;
     width: 100%;
+}
+body{
+    background-color:  rgb(33, 31, 31);
 }
