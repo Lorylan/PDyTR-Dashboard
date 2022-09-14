@@ -8,7 +8,7 @@ from turbo_flask import Turbo
 import threading
 import time
 
-app = Flask(__name__,template_folder='templates')
+app = Flask(__name__,template_folder='templates', static_folder='static')
 turbo = Turbo(app)
 lock = threading.Lock()
 sensor_host = os.getenv("SENSOR_HOST", "localhost")

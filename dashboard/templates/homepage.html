@@ -3,21 +3,30 @@
 <head>
     <title>Sensores en tiempo real</title>
     {{ turbo() }}
+    <link rel="stylesheet" href="/static/css/homepage.css">
+
+    
 </head>
 <body>
-    <div id="data" class="grid">
-        <div class="grid-item">
-            <h1>Sensor de humedad </h1>
-            <label>{{hum.value}}</label>
+    <div id="data"class="main">
+        <h1>Dashboard en tiempo real con gRPC</h1>
+        <div class="content">
+            <div class="hum" id="hum-content">
+                <h1>Humedad</h1>
+                <p>{{hum.value}} %</p>
+            </div>
+            <div class="temp" id="temp-content">
+                <h1>Temperatura</h1>
+                <p>{{temp.value}} C</p>
+            </div>
+            <div class="lum"id="lum-content">
+                <h1>Luminosidad</h1>
+                <p>{{lum.value}} L</p>
+            </div>
         </div>
-        <div class="grid-item">
-            <h1>Sensor de luminosidad </h1>
-            <label>{{lum.value}}</label>
-        </div>
-        <div class="grid-item">
-            <h1>Sensor de temperatura </h1>
-            <label>{{temp.value}}</label>
-        </div>
+        <footer>
+            <p>Programacion Distribuida y Tiempo Real | 2022</p>
+        </footer>
     </div>
-   
 </body>
+
