@@ -344,16 +344,16 @@ Homepage de la aplicación
 <a name="ref"></a>
 # Referencias
 
-[Building a realtime dashboard with ReactJS, Go, gRPC, and Envoy.](https://medium.com/swlh/building-a-realtime-dashboard-with-reactjs-go-grpc-and-envoy-7be155dfabfb)
+[1] "Building a realtime dashboard with reactjs go grpc and envoy", Nirak Fonseka. https://medium.com/swlh/building-a-realtime-dashboard-with-reactjs-go-grpc-and-envoy-7be155dfabfb (acceso en Septiembre de 2022)
 
-[gRPC - Server Streaming RPC](https://www.tutorialspoint.com/grpc/grpc_server_streaming_rpc.htm)
+[2] Información sobre como trabajar con server streaming en gRPC. https://www.tutorialspoint.com/grpc/grpc_server_streaming_rpc.htm (acceso en Septiembre de 2022)
 
-[Python](https://grpc.io/docs/languages/python/)
+[3] Información sobre como utilizar gRPC con Python. https://grpc.io/docs/languages/python/ (acceso en Septiembre de 2022)
 
-[Dynamically Update Your Flask Web Pages Using Turbo-Flask](https://blog.miguelgrinberg.com/post/dynamically-update-your-flask-web-pages-using-turbo-flask)
+[4] "Dynamically Update Your Flask Web Pages Using Turbo-Flask", Miguel Grinberg. https://blog.miguelgrinberg.com/post/dynamically-update-your-flask-web-pages-using-turbo-flask (acceso en Septiembre de 2022)
 
-[Python Microservices With gRPC - Real Python](https://realpython.com/python-microservices-grpc/)
+[5] "Python Microservices With gRPC", Dan Hipschman. https://realpython.com/python-microservices-grpc/ (acceso en Septiembre de 2022)
 
-[Home - Docker](https://www.docker.com/)
+[6] Información sobre la creación de Dockerfiles y uso de Docker-Compose. https://www.docker.com/ (acceso en Septiembre de 2022)
 
-[Welcome to Flask - Flask Documentation (2.2.x)](https://flask.palletsprojects.com/en/2.2.x/)
+[7] Documentación de Flask. https://flask.palletsprojects.com/en/2.2.x/ (acceso en Septiembre de 2022)
